@@ -1,0 +1,246 @@
+.btnbox {
+  display: inline-block;
+  padding: 12px 28px;
+  background: rgb(222, 222, 222);
+  border-radius: 40 px;
+  font-size: 16px;
+  color: rgb(159, 146, 146);
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  box-shadow: 0 0 5px rgb(7, 148, 150);
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+.about-imgg {
+  padding-bottom: 20%;
+  max-width: 630px;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+.about-text {
+  margin-right: 20ox;
+}
+
+.about-text h2 {
+  font-size: 60px;
+}
+.about-text h2 span {
+  font-size: 60px;
+  color: #f4e9e9;
+}
+.about-text h4 {
+  font-size: 28px;
+  color: #dcdde2;
+  font-weight: 600;
+  line-height: 1;
+  margin: 15px 0 30px;
+}
+.about-text p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+.container {
+  padding: 90px;
+}
+#services {
+  color: rgb(250, 248, 248);
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+.container {
+  padding: 90px;
+}
+.sub-title {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;
+}
+.sub-title span {
+  color: blueviolet;
+}
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.services-list div {
+  background-color: transparent;
+  padding: 40px;
+  /* margin-left: 10px; */
+  font-size: 13px;
+  font-weight: 13px;
+  border-right: 10px;
+  border-radius: 20px;
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 1px 1px 20px blueviolet, 1px 1px 48px rgba(191, 4, 132, 0.512);
+}
+.services-list div:hover {
+  transform: translateY(-10px); /* Move up 10px */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.services-list div i {
+  font-size: 50px;
+  margin-bottom: 30px;
+  /* margin-left: 30%; */
+}
+.services-list div h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.services-list div a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 12px; /*how to make proper looking button   */
+  margin-top: 20px;
+  display: inline-block;
+}
+.services-list div a:hover {
+  font-size: 1.2rem;
+  color: rgb(248, 247, 247);
+  box-shadow: 0 0 5px blueviolet;
+}
+
+.read {
+  display: inline-block;
+  padding: 12px 28px;
+  background: blueviolet;
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 0 5px blueviolet, 0 0 25px blueviolet;
+}
+/* .read:hover{
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25pxc blueviolet, 0 0 50px blueviolet,
+    0 0 100px blueviolet,   0 0 200px blueviolet;
+} */
+.conatct {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3rem;
+  padding-left: 30px;
+  margin-top: 130px;
+}
+.contact-text h2 {
+  font-size: 90px;
+  line-height: 1;
+  text-align: center;
+}
+.contact-text h2 span {
+  color: blueviolet;
+}
+
+.contact-text h4 {
+  margin: 15px 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-text p {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 30px;
+  margin: bottom 2rem;
+}
+.contact-list {
+  margin-bottom: 3rem;
+}
+.contact-list li {
+  margin-bottom: 10px;
+  display: block;
+}
+.contact-list li {
+  margin-bottom: 10px;
+  display: block;
+}
+.contact-list i {
+  display: inline-block;
+  color: rgb(33, 28, 28);
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+.contact-list li a:hover {
+  transform: scale(1.01) translateY(-5px);
+  color: blueviolet;
+}
+.conatct-icons {
+  font-size: 30px;
+}
+.conatct-icons i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  font-size: 400px;
+  color: blueviolet;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+.contact-icons i:hover {
+  background: rgb(88, 12, 158);
+  color: black;
+  box-shadow: 0 0 20px blueviolet;
+}
+.contact-form {
+  position: relative;
+}
+.contact-form form input,
+form textarea {
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 18px;
+  background: rgb(11, 0, 0);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.contact-form textarea {
+  color: white;
+  resize: none;
+  height: 220px;
+}
+.contact-form form .send {
+  display: inline-block;
+  padding: 12px 28px;
+  background: blueviolet;
+  border-radius: 40px;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 0 5px blueviolet, 0 0 25px blueviolet;
+}
+
+.contact-form form .send:hover {
+  box-shadow: 0 0 5px blueviolet, 0 0 25pxc blueviolet, 0 0 50px blueviolet,
+    0 0 100px blueviolet, 0 0 200px blueviolet;
+  font-size: larger;
+}
